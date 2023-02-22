@@ -9,13 +9,13 @@
     gap: 4.5rem;
     right: 17px;
     @media screen and (max-width: 700px){
-        display: flex;
-        font-size: 19px;
+         display: flex;
+        font-size: 15px;
         gap: 1rem;
         margin: 0 auto;
         position: relative;
         top: 3%;
-        left: 5%;
+        left: 4%;
     }
     &_item{
         &_active{
