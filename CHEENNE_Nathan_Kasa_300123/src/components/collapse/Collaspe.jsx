@@ -19,7 +19,7 @@ export default function Collapse({title, content}) {
                 </h3>
                 
                 <div className={Colla ? 'collapse_content' : 'collapse_content_hidden'}>
-//si la variable "content" est un tableau à l'aide de la méthode "Array.isArray()". Si "content" est un tableau, la méthode "map()" est appelée dessus pour itérer sur chaque élément du tableau.
+
                     {Array.isArray(content) ? content.map((item, index) => {
                         return (
                             <p key={index}>{item}</p>
